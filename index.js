@@ -1,4 +1,4 @@
-class TestCustomElement extends HTMLElement {
+class SteampipeTable extends HTMLElement {
   constructor() {
     super()
   }
@@ -36,9 +36,8 @@ async connectedCallback() {
 }
 
 if (customElements) {
-  customElements.define('test-custom-element', TestCustomElement )
+  customElements.define('steampipe-table', SteampipeTable )
 }
-
 
 async function callSpc() {
   //  lcp --proxyUrl https://cloud.steampipe.io
