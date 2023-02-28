@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "by": "sahin",
+            "descendants": "0",
+            "id": "34905106",
+            "score": "1",
+            "time": "2023-02-23T00:24:23Z",
+            "title": "JPMorgan restricts employee use of ChatGPT",
+            "type": "story",
+            "url": "https://www.cnn.com/2023/02/22/tech/jpmorgan-chatgpt-employees/index.html"
+        },
+        {
+            "by": "semionk",
+            "descendants": "2",
+            "id": "34905076",
+            "score": "1",
+            "time": "2023-02-23T00:20:54Z",
+            "title": "Inequality Definition",
+            "type": "story",
+            "url": "https://www.google.com/search?q=define%20inequality"
+        },
+        {
+            "by": "moose_man",
+            "descendants": "0",
+            "id": "34905063",
+            "score": "2",
+            "time": "2023-02-23T00:18:46Z",
+            "title": "U.S. Considers Releasing Intelligence on China's Potential Russian Arms Transfer",
+            "type": "story",
+            "url": "https://www.wsj.com/articles/u-s-considers-release-of-intelligence-on-chinas-potential-arms-transfer-to-russia-8e353933"
+        }
+    ]
+}
