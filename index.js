@@ -4,8 +4,21 @@ class TestCustomElement extends HTMLElement {
   }
 async connectedCallback() {
   const data = await callSpc()
+
   let html = '<table>'
+
+  // table header
   const rows = data.items
+  const rowZero = rows[0]
+  let rowHtml = '<tr>'
+  const columns = Object.keys(rowZero)
+  columns.forEach(col => {
+    rowHtml += '<th>' + col + '</th>'
+  })
+  rowHtml += '</tr>'
+  html += rowHtml
+
+  // table body
   rows.forEach(row => {
     let rowHtml = '<tr>'
     const columns = Object.keys(row)
@@ -15,7 +28,9 @@ async connectedCallback() {
     rowHtml += '</tr>'
     html += rowHtml
   })
+
   html += '</table>'
+
   this.innerHTML = html
   }
 }
